@@ -21,6 +21,8 @@
 
 body{
     background-color: #f3e5d8;
+
+    font-family: 'outfit'
 }
 
 main{
@@ -45,10 +47,6 @@ h2 {
 
 h1, h2{
     font-family: 'Serifada';
-}
-
-p{
-    font-family: 'outfit';
 }
 
 section {
@@ -88,4 +86,35 @@ li::marker{
 
 section  li::marker{
     color: var(--cor2);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 400px;
+
+    padding: 8px;
+}
+
+td.titulo {
+    padding-left: 31px;
+
+    color: grey;
+}
+
+td.valor {
+    padding-left: 48px;
+    color: var(--cor1);
+    font-weight: 900;
+}
+
+#linha1  td{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#linha2 td{
+    border-bottom: 1px solid grey;
 }
